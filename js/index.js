@@ -1,5 +1,5 @@
-const SEARCHAPI = "http://www.omdbapi.com/?apikey=e27e7ee0&s="
-const MOVIEAPI = "http://www.omdbapi.com/?apikey=e27e7ee0&i="
+const SEARCHAPI = "https://www.omdbapi.com/?apikey=e27e7ee0&s="
+const MOVIEAPI = "https://www.omdbapi.com/?apikey=e27e7ee0&i="
 const movieBox = document.querySelector("#movie-box")
 
 // get search results as you type
