@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+*{padding:0;margin:0;font-family: 'Inter', sans-serif; box-sizing:border-box}
+body{background-color:#1c1c26}
+.main{max-width:1280px;margin:0 auto}
+.search-box{position: relative; display:flex;flex-direction:column;align-items:center;max-width:850px;margin:80px auto;}
+.movie-box{position: absolute; top: 50px; left: 0; display: none; width: 100%; height: auto; background-color: #35353f; padding: 10px; border-radius: 10px;}
+.box {display: flex; justify-content: space-between; align-items: center; gap: 10px; padding-bottom: 5px; margin-bottom: 5px; border-bottom: 1px solid #4c4c4c;}
+.box:last-child { border-bottom: none; margin-bottom: 0px; padding-bottom: 0px;}
+.movie-dtls { display: flex; align-items: center; justify-content: flex-start; gap: 10px; text-decoration: none;}
+.box img{min-width: 40px; height: 40px; object-fit: cover; border-radius: 5px;}
+.title {width:100%;display:flex; flex-direction: column; justify-content:space-between}
+.title h2 { font-size: 16px; font-weight: 500; color: #fff;}
+.title span { font-size: 14px; font-weight: 400; color: #fff;}
+#search{width:100%;padding:10px 20px;background-color:#35353f;outline:none;border:none;color:#fff;font-size:20px; font-weight: 500; transition:1s; border-radius: 10px; }
+.movie-info { max-width: 900px; display: flex; justify-content: flex-start; align-items:flex-start; gap: 30px; margin: 50px auto 0;}
+.addToFav { font: 600 16px/18px Inter; padding: 5px 10px; background-color: #ffffff; color: #35353f; cursor: pointer; border-radius: 6px; border: none; outline: none;}
+/* ------------------- */
+.movie-details { display: flex; flex-direction: column; color: #fff;}
+.movie-details h2 { font: 700 28px/30px Inter; margin-bottom: 30px;}
+.miStrip { margin-bottom: 30px;}
+.miStrip span { font: 500 18px/20px Inter; background-color: #fff; color: #35353f; padding: 4px 10px; border-radius: 50px; margin-bottom: 20px;}
+.imdbrat { margin-bottom: 30px; font: 500 18px/20px Inter;}
+.imdbrat span{ font: 700 30px/30px Inter;}
+.movie-details p { font: 400 18px/26px Inter; margin-bottom: 30px;}
+.lang,.director { font: 500 18px/20px Inter; margin-bottom: 20px;}
+.add-btn { display: flex; justify-content: center; padding: 30px 0;}
+.add-btn button { font: 700 24px/30px Inter; padding: 10px 30px; width: fit-content; background-color: #e2ba27; border: none; outline: none; cursor: pointer; border-radius: 12px;}
+/* ------------------- */
+.header {background-color: #35353f;}
+.header .main { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; }
+.header a { font: 700 24px/24px Inter; color: #39ea9a; text-decoration: none; letter-spacing: 1.5px;}
+.header .favBtn { background: none; border: none; outline: none; color: #fff; font: 500 16px/16px Inter; cursor: pointer;}
+.movieWrap { display: grid; grid-template-columns: repeat(5,1fr); padding: 50px 0; gap: 20px 20px;}
+/* ------------------- */
+.movieCrd { border: 1px solid #ffffff; border-radius: 10px; overflow: hidden;}
+.movieCrd img { width: 100%; height: 300px;}
+.movieCrd button { width: 100%; font: 600 18px/24px Inter; padding: 10px 0; display: flex; justify-content: center; align-items: center; gap: 10px; border: none; outline: none; cursor: pointer; }
