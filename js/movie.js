@@ -1,4 +1,4 @@
-const MOVIEAPI = "http://www.omdbapi.com/?apikey=e27e7ee0&i="
+const MOVIEAPI = "https://www.omdbapi.com/?apikey=e27e7ee0&i="
 const movieInfo = document.querySelector("#movie-info")
 const addToFav = document.querySelector('#addToFav');
 
